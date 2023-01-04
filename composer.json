@@ -1,0 +1,37 @@
+{
+    "name": "sangio90/notification",
+    "type": "library",
+    "description": "Simple notification system based on top of Mercure",
+    "keywords": [
+        "mercure",
+        "symfony",
+        "symfony-mercure",
+        "notification"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "K3\\Notification\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "beberlei/assert": "^3.2",
+        "doctrine/doctrine-bundle": "^2.0",
+        "doctrine/orm": "^2.7",
+        "sangio90/mercure-publisher": "^2.0",
+        "sangio90/requestparams": "^2.0",
+        "sangio90/result": "^1.0",
+        "sangio90/repository": "^1.0",
+        "nesbot/carbon": "^2.30",
+        "symfony/framework-bundle": "^5.0",
+        "symfony/security-core": "^5.0",
+        "symfony/serializer": "^5.0"
+    },
+    "require-dev": {},
+    "config": {
+        "sort-packages": true
+    },
+    "version": "2.1.0"
+}
