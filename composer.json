@@ -1,5 +1,5 @@
 {
-    "name": "sangio90/notification",
+    "name": "K3Progetti/notification",
     "type": "library",
     "description": "Simple notification system based on top of Mercure",
     "keywords": [
@@ -20,10 +20,10 @@
         "beberlei/assert": "^3.2",
         "doctrine/doctrine-bundle": "^2.0",
         "doctrine/orm": "^2.7",
-        "sangio90/mercure-publisher": "^2.0",
-        "sangio90/requestparams": "^2.0",
-        "sangio90/result": "^1.0",
-        "sangio90/repository": "^1.0",
+        "K3Progetti/mercure-publisher": "^2.0",
+        "K3Progetti/requestparams": "^2.0",
+        "K3Progetti/result": "^1.0",
+        "K3Progetti/repository": "^1.0",
         "nesbot/carbon": "^2.30",
         "symfony/framework-bundle": "^5.0",
         "symfony/security-core": "^5.0",
