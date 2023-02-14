@@ -1,9 +1,9 @@
 <?php
 
 
-namespace K3\Notification\ValueObjects\Notification;
+namespace Esc\Notification\ValueObjects\Notification;
 
-use K3\Notification\Entity\Notification;
+use Esc\Notification\Entity\Notification;
 use Assert\Assertion;
 use Assert\AssertionFailedException;
 

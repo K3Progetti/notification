@@ -1,5 +1,5 @@
 {
-    "name": "K3Progetti/notification",
+    "name": "k3progetti/notification",
     "type": "library",
     "description": "Simple notification system based on top of Mercure",
     "keywords": [
@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "K3\\Notification\\": "src/"
+            "Esc\\Notification\\": "src/"
         }
     },
     "require": {
@@ -20,10 +20,10 @@
         "beberlei/assert": "^3.2",
         "doctrine/doctrine-bundle": "^2.0",
         "doctrine/orm": "^2.7",
-        "K3Progetti/mercure-publisher": "^2.0",
-        "K3Progetti/requestparams": "^2.0",
-        "K3Progetti/result": "^1.0",
-        "K3Progetti/repository": "^1.0",
+        "k3progetti/mercure-publisher": "^2.0",
+        "k3progetti/requestparams": "^2.0",
+        "k3progetti/result": "^1.0",
+        "k3progetti/repository": "^1.0",
         "nesbot/carbon": "^2.30",
         "symfony/framework-bundle": "^5.0",
         "symfony/security-core": "^5.0",

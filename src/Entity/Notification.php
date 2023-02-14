@@ -1,13 +1,13 @@
 <?php
 
-namespace K3\Notification\Entity;
+namespace Esc\Notification\Entity;
 
 use Carbon\Carbon;
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="K3\Notification\Repository\NotificationRepository")
+ * @ORM\Entity(repositoryClass="Esc\Notification\Repository\NotificationRepository")
  * @ORM\HasLifecycleCallbacks
  */
 class Notification

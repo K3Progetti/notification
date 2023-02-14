@@ -1,10 +1,10 @@
 <?php
 
-namespace K3\Notification\Controller;
+namespace Esc\Notification\Controller;
 
-use K3\Notification\Repository\NotificationRepository;
-use K3\RequestParams;
-use K3\Result;
+use Esc\Notification\Repository\NotificationRepository;
+use Esc\RequestParams;
+use Esc\Result;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

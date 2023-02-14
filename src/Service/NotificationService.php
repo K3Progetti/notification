@@ -1,15 +1,15 @@
 <?php
 
-namespace K3\Notification\Service;
+namespace Esc\Notification\Service;
 
-use K3\Notification\Entity\Notification;
-use K3\Notification\Repository\NotificationRepository;
-use K3\Notification\ValueObjects\Notification\Status;
-use K3\Notification\ValueObjects\Notification\Title;
-use K3\Notification\ValueObjects\Notification\Username;
+use Esc\Notification\Entity\Notification;
+use Esc\Notification\Repository\NotificationRepository;
+use Esc\Notification\ValueObjects\Notification\Status;
+use Esc\Notification\ValueObjects\Notification\Title;
+use Esc\Notification\ValueObjects\Notification\Username;
 use Assert\AssertionFailedException;
 use Doctrine\ORM\EntityManagerInterface;
-use K3\MercurePublisherTrait;
+use Esc\MercurePublisherTrait;
 use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
 use Symfony\Component\Mercure\Publisher;
 use Symfony\Component\Serializer\Exception\ExceptionInterface;

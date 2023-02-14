@@ -1,13 +1,13 @@
 <?php
 
-namespace K3\Notification\Repository;
+namespace Esc\Notification\Repository;
 
-use K3\Notification\Entity\Notification;
+use Esc\Notification\Entity\Notification;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\Security\Core\Security;
-use K3\Repository\Repository as K3Repository;
+use Esc\Repository\Repository as EscRepository;
 
 /**
  * @method Notification|null find($id, $lockMode = null, $lockVersion = null)
@@ -15,7 +15,7 @@ use K3\Repository\Repository as K3Repository;
  * @method Notification[]    findAll()
  * @method Notification[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class NotificationRepository extends K3Repository
+class NotificationRepository extends EscRepository
 {
     private $security;
 
